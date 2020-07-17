@@ -1,0 +1,54 @@
+@import "./them.scss";
+body {
+  overflow: hidden !important;
+}
+
+.el-menu-vertical-demo {
+  background-color: $asideBgColor !important;
+  // width: 300px;
+}
+
+.el-header {
+  padding: 0 !important;
+}
+
+.el-menu-item,
+.el-submenu__title {
+  height: 56px;
+  line-height: 56px;
+  text-align: left !important;
+  // border-top: 1px solid $borderColor;
+}
+
+.el-menu-item {
+  background-color: $asideBgColor !important;
+}
+
+.el-submenu {
+  background-color: $asideBgColor !important;
+}
+.el-submenu::hover{
+  background-color: $asideBgColor !important;
+}
+.el-submenu .el-menu-item {
+  height: 56px;
+  line-height: 56px;
+  text-align: left;
+  padding-left: 50px !important;
+  // padding: 0 0 0 40px !important;
+  background-color: $asideBgColor !important;
+  text-align: left;
+}
+
+.el-menu-item.is-active {
+  color: #ffffff !important;
+  background-color: $activeColor !important;
+}
+
+.menu-expanded a {
+  text-decoration: none;
+}
+
+.menu-expanded .router-link-exact-active {
+  text-decoration: none;
+}

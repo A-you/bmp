@@ -1,0 +1,45 @@
+src
+├─App.vue
+├─main.js
+├─views
+|   ├─403.vue
+|   ├─404.vue
+|   ├─Home.vue
+|   ├─Login.vue
+|   ├─userRoleManger
+|   |       └index.vue
+|   ├─user
+|   |  ├─AllUser.vue
+|   |  ├─ArrearageUser.vue
+|   |  ├─LoginUser.vue
+|   |  ├─PayUser.vue
+|   |  ├─RegisterUser.vue
+|   |  └SerchUser.vue
+|   ├─servicePackManager
+|   |         └index.vue
+|   ├─serviceOperation
+|   |        └index.vue
+|   ├─operationStatistics
+|   |          └index.vue
+|   ├─issueManager
+|   |      └index.vue
+|   ├─finance
+|   |    └index.vue
+|   ├─emailManager
+|   |      └index.vue
+├─store
+|   └index.js
+├─router
+|   └index.js
+├─components
+|     ├─HomeHeader.vue
+|     └logoData.js
+├─assets
+|   ├─logo.png
+|   ├─css
+|   |  ├─custom.scss
+|   |  ├─index.scss
+|   |  └them.scss
+├─api
+|  ├─ajax.js
+|  └index.js
